@@ -8,7 +8,7 @@ wget -O .replit https://github.com/quanru/memos-on-replit/raw/master/.replit
 wget -O replit.nix https://github.com/quanru/memos-on-replit/raw/master/replit.nix
 cd ..
 wget -O main.sh https://github.com/quanru/memos-on-replit/raw/master/main.sh
-wget -O memos https://github.com/quanru/memos-on-replit/releases/latest/download/memos
+wget -O memos https://github.com/quanru/memos-on-replit/releases/v0.16.1/download/memos
 cp -r build/.replit . && cp -r build/replit.nix .
 echo "恭喜搭建完成"
 echo "点击Run立即运行项目"
